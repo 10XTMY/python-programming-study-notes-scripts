@@ -1,11 +1,11 @@
 import sys
 import timeit
 # tuples are ordered, immutable, and allow duplicate elements
-my_tuple = ('Tom', 38, 'London')
+my_tuple = ('10XTMY', 99, 'London')
 # parenthesis is optional, for a single item in a tuple must add a comma at the end: ('Tom',)
 
 # use tuple function to create a tuple from an iterable:
-my_tuple = tuple(['Tom', 38, 'London'])
+my_tuple = tuple(['10XTMY', 99, 'London'])
 
 # like lists tuples can be referenced by index
 print(my_tuple[1])

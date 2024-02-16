@@ -1,6 +1,6 @@
 # dictionaries are key-value pairs, unordered, and mutable
-my_dict = {'name': 'Tom', 'age': 28, 'location': 'London'}
-my_dict_b = dict(name='Tom', age=28, location='London')
+my_dict = {'name': '10XTMY', 'age': 99, 'location': 'London'}
+my_dict_b = dict(name='10XTMY', age=99, location='London')
 print(my_dict, my_dict_b)
 
 # accessing values by key
@@ -27,7 +27,7 @@ print(my_dict)
 # clear entire dictionary
 my_dict.clear()
 print(my_dict)
-my_dict = {'name': 'Tom', 'age': 28, 'location': 'London'}
+my_dict = {'name': '10XTMY', 'age': 99, 'location': 'London'}
 print(my_dict)
 
 if 'name' in my_dict:
@@ -52,7 +52,7 @@ my_dict_copy = my_dict.copy()
 
 # merge two dictionaries
 my_dict_c = dict(name='Sara', age=30, location='London')
-my_dict_d = dict(name='Tom', age=38, location='London', email='tom@tom.com')
+my_dict_d = dict(name='10XTMY', age=99, location='London', email='10XTMY@10XTMY.com')
 
 my_dict_c.update(my_dict_d)
 print(my_dict_c)

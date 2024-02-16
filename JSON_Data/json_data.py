@@ -45,7 +45,7 @@ class User:
         self.age = age
 
 
-user_a = User('Tom', 38)
+user_a = User('Bob', 77)
 # user_json = json.dumps(user_a) <-- generates an error
 
 
@@ -90,7 +90,7 @@ def decode_user(dct):
     return dct
 
 
-with open('D:/Coding_Projects/my_tools/_practice/JSON_Data/user.json', 'r') as file:
+with open('user.json', 'r') as file:
     loaded_json = json.load(file)
     print(loaded_json)
     loaded_user = decode_user(loaded_json)
