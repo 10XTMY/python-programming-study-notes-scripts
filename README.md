@@ -6,8 +6,6 @@ This repository contains my personal practice and study notes, as well as script
 
 Working with various coding languages often leads to periods of time away from one or another. Having a go-to repository to brush up on the fundamentals can be incredibly helpful..
 
-## Contents
-
 The repository is organized into various folders and files, each focusing on different aspects of Python programming. Here's a general overview of what you can expect to find:
 
 - **OOP**: Object-oriented programming in Python, including classes, inheritance, and polymorphism.
