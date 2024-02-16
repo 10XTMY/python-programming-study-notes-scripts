@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<!--  <h1>Hello, {{ placeholder }}!</h1>-->
+<h1>Hello, {% if placeholder %}{{ placeholder }}{% else %}world{% endif %}!</h1>
+{% endblock %}

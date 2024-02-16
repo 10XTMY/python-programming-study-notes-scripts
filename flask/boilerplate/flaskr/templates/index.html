@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<!-- to support post, we use method="post" in route-->
+<!-- remove action="/greet" as we consolidated the logic into route "/"-->
+  <form action="/" method="post">
+        <input autocomplete="off" autofocus type="text" name="name" placeholder="name">
+        <button type="submit">Greet</button>
+  </form>
+{% endblock %}

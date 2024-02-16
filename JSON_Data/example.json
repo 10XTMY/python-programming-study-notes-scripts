@@ -1,0 +1,17 @@
+{
+    "firstName": "Tom",
+    "lastName": "Parker",
+    "hobbies": ["muay thai", "photography", "game design"],
+    "age": 38,
+    "hasChildren": false,
+    "friends": [
+      {
+        "firstName": "Ricky",
+        "age": 40
+      },
+      {
+        "firstName": "Damian",
+        "age": 45
+      }
+    ]
+}

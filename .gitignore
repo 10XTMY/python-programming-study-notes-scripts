@@ -1,0 +1,40 @@
+*.pyc
+__pycache__/
+instance/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+flask_session/
+env/
+.env/
+venv/
+.venv/
+
+.env
+.env.local
+
+*.zip
+*.tar.gz
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# temp files
+*.tmp
+*.swp
+*~
